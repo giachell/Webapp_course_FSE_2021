@@ -3,7 +3,7 @@
 $title = "<h1> Conditional statements (if / else) </h1>"; // HTML string 
 
 $a = 5; // first number
-$b = 1; // second number
+$b = 5; // second number
 
 echo $title;
 echo "a: $a; b: $b <br/><br/>";

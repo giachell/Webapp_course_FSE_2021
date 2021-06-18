@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/form_2.php" method="POST">
+  <label for="name">Nome:</label><br>
+  <input type="text" id="name" name="name" value="Mario"><br>
+  
+  
+  <label for="surname">Cognome:</label><br>
+  <input type="text" id="surname" name="surname" value="Rossi"><br><br>
+
+  <label for="dataNascita">Data di nascita:</label><br>
+  <input type="date" id="dataNascita" name="dataNascita"><br><br>
+
+  <label for="laureato">Sei laureato?:</label><br>
+  <label>Si</label><input type="radio" name="laureato" value="si">
+  <label>No</label><input type="radio" name="laureato" value="no"><br><br>
+
+  <label for="titoli">Se si quali sono i titoli conseguiti?:</label><br>
+  <label>Laurea triennale</label><input type="checkbox" name="titoli[]" value="laurea_triennale">
+  <label>Laurea magistrale</label><input type="checkbox" name="titoli[]" value="laurea_magistrale">
+  <label>Dottorato di ricerca</label><input type="checkbox" name="titoli[]" value="dottorato_di_ricerca"><br><br>
+
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
